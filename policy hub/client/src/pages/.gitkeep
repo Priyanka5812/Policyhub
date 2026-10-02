@@ -1,0 +1,5 @@
+# Pages will be organized by role:
+# /auth     — Login.jsx, Register.jsx
+# /customer — Dashboard.jsx, PolicyList.jsx, MyPolicies.jsx, ClaimForm.jsx, MyClaims.jsx
+# /agent    — Dashboard.jsx, Applications.jsx, Claims.jsx
+# /admin    — Dashboard.jsx

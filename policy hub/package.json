@@ -1,0 +1,13 @@
+{
+  "name": "policyhub",
+  "version": "1.0.0",
+  "description": "PolicyHub - Run both client and server together",
+  "scripts": {
+    "dev": "concurrently --names \"SERVER,CLIENT\" --prefix-colors \"cyan,magenta\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

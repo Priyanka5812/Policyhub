@@ -1,0 +1,2 @@
+# middleware folder
+# Middleware files will be added here: authMiddleware.js (JWT verify + role check)

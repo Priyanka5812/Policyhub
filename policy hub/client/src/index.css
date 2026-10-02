@@ -1,0 +1,22 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable */
+
+
+/* Global resets / base styles can go here */
+body {
+  background-color: #eff6ff; /* blue-50 */
+  color: #1e3a5f;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Toast slide-in animation */
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(60px); }
+  to   { opacity: 1; transform: translateX(0);    }
+}
+.animate-slide-in {
+  animation: slide-in 0.2s ease-out;
+}
